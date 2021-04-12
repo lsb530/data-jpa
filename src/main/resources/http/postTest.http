@@ -1,0 +1,7 @@
+### Send POST request with json body
+POST http://localhost:8089/api/member
+Content-Type: application/json
+
+{
+  "name": "냐하하"
+}

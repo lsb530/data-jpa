@@ -1,0 +1,23 @@
+### 페이징 처리 조회
+GET http://localhost:8089/members?page=0&size=3&sort=id,desc&sort=username,desc
+Accept: application/json
+
+### 전체조회
+GET http://localhost:8089/members
+Accept: application/json
+
+### config 조회
+GET http://localhost:8089/members-config
+Accept: application/json
+
+### DTO로 조회
+GET http://localhost:8089/members-dto
+Accept: application/json
+
+### 가입테스트
+POST http://localhost:8089/api/member
+Content-Type: application/json
+
+{
+  "name": "냐하하"
+}
